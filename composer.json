@@ -18,10 +18,17 @@
       "email": "darius@matulionis.lt"
     }
   ],
+  "repositories": [
+    {
+      "name": "zircote/swagger-php",
+      "type": "vcs",
+      "url": "https://github.com/k2tzumi/swagger-php"
+    }
+  ],
   "require": {
     "php": "^7.2 || ^8.0",
     "laravel/framework": "^9.0 || >=8.40.0 || ^7.0",
-    "zircote/swagger-php": "^3.2 || ^4.0",
+    "zircote/swagger-php": "dev-convert-enum-class-string",
     "swagger-api/swagger-ui": "^3.0 || ^4.0",
     "symfony/yaml": "^5.0 || ^6.0",
     "ext-json": "*"
